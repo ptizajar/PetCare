@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="223.0" prefWidth="532.0" style="-fx-background-color: #F1FFE0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Language">
+    <children>
+        <Text layoutX="214.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите язык">
+            <font>
+                <Font name="Calibri" size="16.0" />
+            </font>
+        </Text>
+        <Button fx:id="languageOkButton" layoutX="97.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="339.0" style="-fx-background-color: #F9E4D1;" text="OK" />
+      <Group layoutX="221.0" layoutY="71.0">
+         <children>
+            <RadioButton fx:id="languageRussionRadio" mnemonicParsing="false" prefHeight="21.0" prefWidth="90.0" text="Русский">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="languageEnglishRadio" layoutX="1.0" layoutY="41.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="90.0" text="English">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Group>
+    </children>
+</AnchorPane>

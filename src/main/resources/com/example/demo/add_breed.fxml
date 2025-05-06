@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="218.0" prefWidth="532.0" style="-fx-background-color: #F1FFE0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AddBreed">
+   <children>
+      <Text layoutX="207.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавить породу">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="addBreedName" layoutX="96.0" layoutY="77.0" prefHeight="25.0" prefWidth="339.0" promptText="Название" />
+      <TextField fx:id="addBreedDescription" layoutX="96.0" layoutY="122.0" prefHeight="25.0" prefWidth="339.0" promptText="Описание" />
+      <Button fx:id="addBreedOK" layoutX="96.0" layoutY="158.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="339.0" style="-fx-background-color: F9E4D1;" text="OK">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
